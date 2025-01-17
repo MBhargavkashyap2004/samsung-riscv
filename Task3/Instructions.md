@@ -1,10 +1,10 @@
 # Instructions and Opcodes
-  **R type: Register type**
-  **I type: Immediate type**
-  **S type: Store type**
-  **B type: Branch type**
-  **U type: Upper immediate type**
-  **J type: Jump type**
+   **R type: Register type**
+   **I type: Immediate type**
+   **S type: Store type**
+   **B type: Branch type**
+   **U type: Upper immediate type**
+   **J type: Jump type**
 
 ## Opcodes
 Opcodes are the codes which determine the type of instructions
