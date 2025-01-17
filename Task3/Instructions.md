@@ -120,6 +120,14 @@ Opcodes are the codes which determine the type of instructions <br />
   **Destination**: rs2 - 10000 <br />
   **Type**: R-type <br />
 
+### slli a3, a3, 0x2 
+  **Hexadecimal instruction**: 00269693 <br />
+  **Binary instruction** : 000000000010|10010|101|01001|0010011 <br />
+  **Opcode**: 0010011 <br />
+  **Source**: rs1 - 10010 <br />
+  **Destination**: rd - 01001 <br />
+  **Type**: I-type <br />
+
 
 
 
