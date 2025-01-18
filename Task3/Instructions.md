@@ -39,6 +39,8 @@ Opcodes are the codes which determine the type of instructions <br />
 
 ## Machine Instructions 
 
+![image](https://github.com/user-attachments/assets/7c80d428-b759-4cc3-a61b-d67c6cb9de56)
+
 ### addi sp, sp, 16
 **Hexadecimal instruction**: ff010113 <br />
 **Binary instruction** : 111111110000|00010|000|00010|0010011 <br />
@@ -46,6 +48,8 @@ Opcodes are the codes which determine the type of instructions <br />
 **Source**: rs1 - 00010 <br />
 **Destination**: 00010 <br />
 **Type**: I-type <br />
+
+![image](https://github.com/user-attachments/assets/f36e2421-8de6-4d2d-bf8c-c7a3591cb7ff)
 
 
 ### sd ra,8(sp)
@@ -56,6 +60,8 @@ Opcodes are the codes which determine the type of instructions <br />
   **Destination**: rs2 - 00001 <br />
   **Type**: S-type <br />
 
+![image](https://github.com/user-attachments/assets/a476c369-8c68-4971-aed5-9eb21f5ee59e)
+
 ### li a1, 45
   **Hexadecimal instruction**: 02d00593 <br />
   **Binary instruction** : 0000000101101|00000|000|01011|0010011 <br />
@@ -63,6 +69,8 @@ Opcodes are the codes which determine the type of instructions <br />
   **Source**: rs1 - 00000 <br />
   **Destination**: rd-  01011 <br />
   **Type**: I-type <br />
+
+![image](https://github.com/user-attachments/assets/868a8748-6f85-4b1c-aaa1-94e12b2693c5)
 
 ### lui a0, 0x21
   **Hexadecimal instruction**: 00021537 <br />
@@ -72,6 +80,8 @@ Opcodes are the codes which determine the type of instructions <br />
   **Destination**: rd - 01011 <br />
   **Type**: I-type <br />
 
+![image](https://github.com/user-attachments/assets/fb67142b-aa99-4910-88c6-ba7afe3629f9)
+
 ### jal ra, 10404 <printf>
   **Hexadecimal instruction**: 26c000ef <br />
   **Binary instruction** : 001001101100|000000000000|00000|1101111 <br />
@@ -79,6 +89,8 @@ Opcodes are the codes which determine the type of instructions <br />
   **Source**: Immediate: 0x26c00 <br />
   **Destination**: rd - 0000 <br />
   **Type**: J-type <br />
+
+![image](https://github.com/user-attachments/assets/e092f6ba-370d-489f-91d8-113a21bdefcd)
 
 ### ld ra,8(sp)
   **Hexadecimal instruction**: 00813083 <br />
@@ -88,6 +100,8 @@ Opcodes are the codes which determine the type of instructions <br />
   **Destination**: rd - 00011 <br />
   **Type**: I-type <br />
 
+![image](https://github.com/user-attachments/assets/d10f396a-ee8d-487c-8828-f39519a46c79)
+
 ### mv a1, a0
   **Hexadecimal instruction**: 00050593 <br />
   **Binary instruction** : 000000000000|00101|000|01011|0010011 <br />
@@ -95,6 +109,8 @@ Opcodes are the codes which determine the type of instructions <br />
   **Source**: rs1 - 00101 <br />
   **Destination**: rd - 01011 <br />
   **Type**: I-type <br />
+
+![image](https://github.com/user-attachments/assets/bc3c72c6-ea50-41d6-8850-f8fb76281ed2)
 
 ### auipc a5, 0xffff0
   **Hexadecimal instruction**: ffff0797 <br />
@@ -104,6 +120,8 @@ Opcodes are the codes which determine the type of instructions <br />
   **Destination**: rd - 00001 <br />
   **Type**: U-type <br />
 
+![image](https://github.com/user-attachments/assets/3f6a45c3-daf4-4249-a77b-062e8e6ea2a5)
+
 ### srai s2, s2, 0x3
   **Hexadecimal instruction**: 40395913 <br />
   **Binary instruction** : 010000000011|01011|001|01001|0010011 <br />
@@ -111,6 +129,8 @@ Opcodes are the codes which determine the type of instructions <br />
   **Source**: rs1 - 01011 <br />
   **Destination**: rd - 01001 <br />
   **Type**: I-type <br />
+
+![image](https://github.com/user-attachments/assets/6c451660-2578-4c64-ad3a-f180c281d2e5)
 
 ### sub a5, a5, s0
   **Hexadecimal instruction**: 408787b3 <br />
@@ -127,6 +147,40 @@ Opcodes are the codes which determine the type of instructions <br />
   **Source**: rs1 - 10010 <br />
   **Destination**: rd - 01001 <br />
   **Type**: I-type <br />
+
+![image](https://github.com/user-attachments/assets/e3b450bb-70f4-4122-b4bc-886f28375aee)
+
+## seqz a0, a0
+  **Hexadecimal instruction**: 00153513 <br />
+  **Binary instruction** : 000000000001|01010|011|01001|0010011 <br />
+  **Opcode**: 0010011 <br />
+  **Source**: rs1 - 01010 <br />
+  **Destination**: rd - 01001 <br />
+  **Type**: I-type <br />
+
+![image](https://github.com/user-attachments/assets/84aebd5f-ada2-4042-b2c9-9a9f6ec54535)
+
+## lhu a2, -2(a4)
+  **Hexadecimal instruction**: ffe75603 <br />
+  **Binary instruction** :111111111110|00111|010|01011|0000011 <br />
+  **Opcode**: 0010011 <br />
+  **Source**: rs1 - 00111 <br />
+  **Destination**: rd - 01011 <br />
+  **Type**: I-type <br />
+
+![image](https://github.com/user-attachments/assets/bdba242f-4ff3-457b-a54a-f48cab638a94)
+
+## not a5, a5
+  **Hexadecimal instruction**: fff7c793 <br />
+  **Binary instruction** :111111111111|01111|111|01111|0010011 <br />
+  **Opcode**: 0010011 <br />
+  **Source**: rs1 - 01111 <br />
+  **Destination**: rd - 01111 <br />
+  **Type**: I-type <br />
+
+
+
+
 
 
 
