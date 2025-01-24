@@ -9,6 +9,8 @@
 
 Here, A and B shows the value inside the register. Aluout file shows the output of the operation. for the 32 bit instruction, ADD r6, r2, r1, (02208300), the output is 3. 
 
+##ADDI Instruction
+
 
 
 
