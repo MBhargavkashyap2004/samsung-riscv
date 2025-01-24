@@ -3,6 +3,9 @@
 ## What is RISC-V?
 RISC-V is an open standard instruction set architecture (ISA) based on the principles of Reduced Instruction Set Computing (RISC). Unlike proprietary architectures, RISC-V is free and open, enabling anyone to design, implement, and customize processors without licensing fees or royalties. <br>
 
+![image](https://github.com/user-attachments/assets/0deaaf5f-f32b-40de-8052-9ce99ec9164a)
+
+
 ## Key Features of RISC-V:
 * **Modularity**: RISC-V supports a base integer instruction set, with optional extensions like floating-point, vector processing, and more. <br>
 * **Simplicity**: Designed with simplicity and efficiency in mind, making it suitable for a wide range of applications, from microcontrollers to supercomputers.
