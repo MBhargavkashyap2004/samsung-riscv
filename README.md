@@ -24,17 +24,30 @@ This Github repository will be consisting of the tasks and projects which I will
 
 This task was regarding the setting up of UBUNTU environment for the RISCV project. <br>
 In Task 1, a basic C program file was created and compiled using GCC compiler. Various outputs were observed by changing the variable values. <br>
+The riscv64 rv32i compiler was introduced for the same, to generate the object file, using O1 optimization.
+
 
 ## Task 2
 
 In this task, a simple C program was written, and the program was compiled and .out file was executed the check the instruction sets by using spike command. <br>
-
 The same task was done by compiling the file with riscv64 rv32i architecture, and the instruction sets were observed by using spike command.
-
-## Task 3
-
 
 The same file was compiled in riscv architecture, using riscv64 command, and the instruction sets were observed using 'O1' and 'Ofast' Optimizations. <br>
 The instruction counts were observed. <br>
+
+
+## Task 3
+
+In this task, Different type of Instruction sets were observed. R-type (register-register operations), I-type (register-immediate operations), S-type (store <br>
+instructions), B-type (branch instructions), U-type (load upper immediate), and J-type (jump instructions) were observed. Set of 15 instructions were <br>
+decoded and the type was determined.
+
+## Task 4
+
+In this task, Waveform file was obtained for the given verilog code, for the set of different instructions. The output was obtained by observing each and every <br>
+register operation. The waveform files for particular operations were obtained.
+
+
+
 
 
