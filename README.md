@@ -16,7 +16,7 @@ This Github repository will be consisting of the tasks and projects which I will
 * **NAME**: Bhargav M <br>
 * **COLLEGE**: RV Institute of Technology and Management <br>
 * **GMAIL**: bhargavkashyap2004@gmail.com <br>
-* **GITHUB**: 
+* **GITHUB**: https://github.com/MBhargavkashyap2004 <br>
 * **LinkedIn**: www.linkedin.com/in/mbhargav2004 <br>
 
 
@@ -26,5 +26,6 @@ This task was regarding the setting up of UBUNTU environment for the RISCV proje
 In Task 1, a basic C program file was created and compiled using GCC compiler. Various outputs were observed by changing the variable values. <br>
 
 The same file was compiled in riscv architecture, using riscv64 command, and the instruction sets were observed using 'O1' and 'Ofast' Optimizations. <br>
-
 The instruction counts were observed. <br>
+
+
