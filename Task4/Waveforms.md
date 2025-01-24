@@ -27,6 +27,29 @@ BEQ increaments the value stored in the register r0 by 15. Since the register r0
 
 
 ## BNE Instruction (BNE r0, r1, 20)
+![image](https://github.com/user-attachments/assets/57786c6c-e0a2-4044-b10d-847c6be634f4)
+
+BNE instruction checks the value of the stored register. it branches the specified value, if the output is not equal. In this instruction, BNE branches the value 20 to the given instruction, to give the value 48.
+
+## OR Instruction (OR r9, r2, r5)
+![image](https://github.com/user-attachments/assets/b78e4633-33fa-4ceb-9021-52710ad2f7ec)
+OR performs the ORing operation between two registers. 
+
+## SLT instruction (SLT r1, r2, r4)
+![image](https://github.com/user-attachments/assets/a0dfeaca-6ca1-4a92-bb8b-fdfaca50edd7)
+Here, SLT compares the two values, here, 2 and 4. if 2<4, the output will be 1. The output is 1 here.
+
+## SUB instruction (SUB r7, r1, r2)
+![image](https://github.com/user-attachments/assets/2b8912fb-c93f-4e23-84d2-d2562792dfb3)
+SUB instruction subtracts the value stored in two registers. Here, the output is -1, as 2 is getting subtracted by 1.
+
+## XOR instruction (XOR r10, r1, r4)
+![image](https://github.com/user-attachments/assets/fa3197bf-1df0-42a3-838c-bcd8b740510e)
+XOR instruction XORs two register values. Here, 1 is XORed with 4.
+
+
+
+
 
 
 
