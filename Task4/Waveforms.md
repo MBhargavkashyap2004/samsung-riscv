@@ -51,6 +51,10 @@ SUB instruction subtracts the value stored in two registers. Here, the output is
 ![image](https://github.com/user-attachments/assets/fa3197bf-1df0-42a3-838c-bcd8b740510e)
 XOR instruction XORs two register values. Here, 1 is XORed with 4.
 
+## Overall Instruction set waveform output
+![image](https://github.com/user-attachments/assets/ee3e6f39-8133-4037-8cbd-4faa1691832e)
+
+
 
 
 
