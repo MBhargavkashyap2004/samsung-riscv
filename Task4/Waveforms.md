@@ -4,6 +4,10 @@
 ## GTKwave initial view
 ![image](https://github.com/user-attachments/assets/9456ea9a-0721-49c7-b5ff-86202b194af6)
 
+## Instructions
+![image](https://github.com/user-attachments/assets/d11c8654-73a4-44d8-bcda-df98fa4d86ee)
+
+
 ## ADD Instruction (ADD r6, r2, r1)
 ![image](https://github.com/user-attachments/assets/36544389-2ab7-4edd-80dd-4a82ba6f9a9a)
 
