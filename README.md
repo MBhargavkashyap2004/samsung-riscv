@@ -41,13 +41,13 @@ The instruction counts were observed. <br>
 
 ## Task 3
 
-In this task, Different type of Instruction sets were observed. R-type (register-register operations), I-type (register-immediate operations), S-type (store <br>
-instructions), B-type (branch instructions), U-type (load upper immediate), and J-type (jump instructions) were observed. Set of 15 instructions were <br>
+In this task, Different type of Instruction sets were observed. R-type (register-register operations), I-type (register-immediate operations), S-type (store
+instructions), B-type (branch instructions), U-type (load upper immediate), and J-type (jump instructions) were observed. Set of 15 instructions were 
 decoded and the type was determined.
 
 ## Task 4
 
-In this task, Waveform file was obtained for the given verilog code, for the set of different instructions. The output was obtained by observing each and every <br>
+In this task, Waveform file was obtained for the given verilog code, for the set of different instructions. The output was obtained by observing each and every 
 register operation. The waveform files for particular operations were obtained.
 
 
