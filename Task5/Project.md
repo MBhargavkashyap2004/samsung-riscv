@@ -16,18 +16,18 @@ By adjusting the motor speeds or stopping certain motors, the robot can turn or 
 
 ## 3. Decision Logic:
 The basic decision-making logic of a line follower robot can be summarized as: <br>
-If the middle sensor detects the line (usually black on a white background), the robot moves forward. <br>
-If the left sensor detects the line, the robot will turn right to align back with the line.<br>
-If the right sensor detects the line, the robot will turn left to realign.<br>
-If no sensor detects the line (all sensors detect white), the robot may stop or perform a predefined action like turning in place to search for the line.<br>
+* If the middle sensor detects the line (usually black on a white background), the robot moves forward. <br>
+* If the left sensor detects the line, the robot will turn right to align back with the line.<br>
+* If the right sensor detects the line, the robot will turn left to realign.<br>
+* If no sensor detects the line (all sensors detect white), the robot may stop or perform a predefined action like turning in place to search for the line.<br>
 
 ## 4. Working Example:
 As the robot moves along the track, it constantly reads input from the IR sensors. <br>
 Depending on which sensor detects the line, the robot adjusts its movement: <br>
-If the left sensor detects the line, it turns right. <br>
-If the right sensor detects the line, it turns left. <br>
-If the middle sensor detects the line, it moves forward. <br>
-If no sensor detects the line, it stops or searches for the line. <br>
+* If the left sensor detects the line, it turns right. <br>
+* If the right sensor detects the line, it turns left. <br>
+* If the middle sensor detects the line, it moves forward. <br>
+* If no sensor detects the line, it stops or searches for the line. <br>
 
 ## 5. Applications:
 * **Robotics Competitions**: Many robotics competitions feature line-following tasks, where robots must follow a line or path on the ground.
