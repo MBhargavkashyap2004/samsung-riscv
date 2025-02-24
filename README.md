@@ -51,6 +51,20 @@ In this task, Waveform file was obtained for the given verilog code, for the set
 register operation. The waveform files for particular operations were obtained.
 
 
+## Task 5
+
+In this task, a line follower project was implemented virtually using VSDsquadron RISC-V board. The block diagram and Pin configurations were added.
+
+## Task 6
+
+In this task, using VSDsquadron RISC-V board, a hardware impmementation of line follower robot was done using 3 IR sensors, 1 L293D motor driver, VSDsquadron board and 2 N20 motors.
+
+
+
+
+![line_follower](https://github.com/user-attachments/assets/62bee1f9-6a3e-482c-b08a-6e275225b1d6)
+
+
 
 
 
